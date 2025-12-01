@@ -9,15 +9,15 @@ from keras.layers import Conv2D, MaxPooling2D, Dropout, Flatten, Dense, LeakyReL
 import keras
 from PIL import Image
 
-from keras.models import load_model
-modelo = load_model('modelo_deportes.h5')
+##from keras.models import load_model
+# modelo = load_model('modelo_deportes.h5')
 
 
 # ----------------------------------------------------------------
 # PASO 1: Cargar las imágenes de sportsimages
 # ----------------------------------------------------------------
 
-dirname = os.path.join(os.getcwd(), 'sportimages')
+dirname = os.path.join(os.getcwd(), 'CNN sports\sportimages')
 imgpath = dirname + os.sep
 
 images = []

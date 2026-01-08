@@ -1,6 +1,6 @@
 import snscrape.modules.twitter as sntwitter
 
-# Definir la consulta de búsqueda
+# Buscar tweets que contengan la query
 query = "ley fula de tal"
 tweets = []
 

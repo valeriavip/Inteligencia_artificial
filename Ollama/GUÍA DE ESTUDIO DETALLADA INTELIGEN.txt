@@ -1,0 +1,116 @@
+GUÍA DE ESTUDIO DETALLADA: INTELIGENCIA ARTIFICIAL
+
+---
+
+### 1.FUNDAMENTOS DE INTELIGENCIA ARTIFICIAL
+
+Esta sección introduce los conceptos básicos sobre qué es la IA, de dónde viene y cómo se categoriza.
+
+* Definición e Historia:
+    * La **Inteligencia Artificial (IA)** se define como un área multidisciplinaria. [cite_start]Utiliza campos como las ciencias de la computación, la lógica y la filosofía para estudiar cómo crear y diseñar "entidades" (como programas de computadora) que puedan resolver problemas por sí mismas[cite: 6]. [cite_start]La idea es usar la inteligencia humana como un modelo o paradigma[cite: 6].
+    * [cite_start]La definición clásica fue acuñada por **John McCarthy en 1956**, quien la llamó: "Es la ciencia e ingenio de hacer máquinas inteligentes, especialmente programas de cómputo inteligentes"[cite: 8].
+    * [cite_start]El **propósito de la asignatura** (según el temario) es que los ingenieros puedan aplicar estas técnicas (modelos matemáticos, estadísticos, de simulación) para solucionar problemas complejos del mundo real, como el control automático, el diagnóstico de fallas, la toma de decisiones, la clasificación o la minería de datos[cite: 524].
+
+* Categorías de la IA:
+    [cite_start]El campo de la IA se puede dividir en cuatro enfoques principales, dependiendo de si el objetivo es imitar el *pensamiento* o la *conducta*, y si se compara contra un estándar *humano* o *racional* (ideal)[cite: 19, 21, 23, 26].
+    1.  **Sistemas que piensan como humanos:** Tratan de emular el pensamiento humano. [cite_start]Un ejemplo clave son las **redes neuronales artificiales**[cite: 19].
+    2.  **Sistemas que actúan como humanos:** Se centran en imitar el *comportamiento* humano. [cite_start]La **robótica** es el mejor ejemplo de esto[cite: 21, 22].
+    3.  **Sistemas que piensan racionalmente:** Intentan emular el pensamiento *lógico* e ideal (no necesariamente como lo hace un humano, que puede ser ilógico). [cite_start]Los **sistemas expertos** son un ejemplo[cite: 23, 24].
+    4.  **Sistemas que actúan racionalmente:** Buscan emular de forma racional el comportamiento. [cite_start]Los **agentes inteligentes** (software que percibe su entorno y actúa) caen en esta categoría[cite: 26].
+
+* Conceptos Clave:
+    * **Agente Inteligente:** Es un concepto central. [cite_start]Se refiere a la capacidad de razonar de un "agente no vivo"[cite: 8]. [cite_start]El temario lo identifica como un modelo de estudio[cite: 575].
+    * **Heurística:** Juega un papel fundamental. Una heurística es una "regla" o atajo mental que ayuda a resolver problemas más rápido cuando los métodos clásicos son muy lentos. No garantiza la mejor solución, pero sí una solución "suficientemente buena". [cite_start]Se usa mucho en los algoritmos de búsqueda[cite: 575, 66].
+
+---
+
+### 2.RESOLUCIÓN DE PROBLEMAS Y BÚSQUEDA
+
+Esta área se enfoca en cómo un agente de IA encuentra una solución a un problema. La estrategia principal es modelar el problema como una "búsqueda" dentro de un "mapa".
+
+* Espacio de Estados:
+    * Es la forma de modelar el problema. [cite_start]Se definen todas las "configuraciones posibles" que el problema puede tener, y a cada configuración se le llama un **estado**[cite: 163, 273].
+    * Un espacio de estados se compone de:
+        1.  [cite_start]**Estado Inicial:** El punto de partida del problema[cite: 164, 274]. (Ej. las piezas de ajedrez en su posición inicial).
+        2.  [cite_start]**Estado Objetivo:** La configuración que representa la solución[cite: 164, 274]. (Ej. una posición de Jaque Mate).
+        3.  [cite_start]**Reglas o Transformaciones:** Son las "movidas" válidas que te permiten pasar de un estado a otro[cite: 169, 279]. (Ej. las reglas de cómo se mueve un caballo).
+    * [cite_start]Resolver el problema significa **encontrar un camino** (una secuencia de reglas) desde el estado inicial hasta un estado objetivo[cite: 165, 176, 275, 285].
+    * [cite_start]Estos espacios pueden ser **determinísticos** (cada acción tiene un solo resultado predecible [cite: 291][cite_start]) o **no determinísticos** (una acción puede llevar a múltiples resultados [cite: 294][cite_start])[cite: 582].
+
+* Técnicas de Búsqueda:
+    Son los algoritmos que "exploran" este mapa o grafo del espacio de estados.
+
+    * **Búsqueda Ciega (No Informada):**
+        Son algoritmos "tontos" en el buen sentido. [cite_start]No saben nada sobre el problema, solo saben si han llegado al objetivo o no[cite: 235]. Exploran de forma sistemática.
+        * [cite_start]**Búsqueda en Anchura (Breadth-First):** Explora el mapa "capa por capa" o nivel por nivel[cite: 237, 298]. [cite_start]Utiliza una estructura de datos tipo **cola (FIFO)**[cite: 297]. [cite_start]Su mayor ventaja es que **garantiza encontrar el camino más corto** (la solución con menos pasos)[cite: 314].
+        * [cite_start]**Búsqueda en Profundidad (Depth-First):** Explora el mapa yendo "tan profundo como puede" por una sola rama[cite: 239]. [cite_start]Si llega a un callejón sin salida, retrocede (*backtracking*) y prueba otra rama[cite: 240, 318]. [cite_start]Usa una **pila (LIFO)**[cite: 316]. [cite_start]Su desventaja es que puede "perderse" en una rama muy larga [cite: 334] [cite_start]y **no garantiza encontrar el camino más corto**[cite: 336].
+
+    * **Búsqueda Heurística (Informada):**
+        Son algoritmos "inteligentes". [cite_start]Usan información adicional (la heurística) para tomar mejores decisiones[cite: 245].
+        * [cite_start]Una **función heurística** hace una "predicción del coste" o una estimación de qué tan lejos se está del objetivo[cite: 246, 247].
+        * [cite_start]**Algoritmo $A^{*}$ (A-Estrella):** Es el algoritmo heurístico más famoso y utilizado[cite: 248]. [cite_start]También es mencionado en el temario de la Fuente 2[cite: 575].
+
+* Teoría de Juegos:
+    [cite_start]Se utiliza en IA para modelar problemas donde hay adversarios (como el ajedrez o las damas)[cite: 357, 166]. [cite_start]Ayuda a "descubrir una estrategia ganadora" [cite: 352] [cite_start]y es una forma fácil de medir si las técnicas de IA tienen éxito o fracasan[cite: 355].
+
+* Grafos:
+    [cite_start]Son la estructura matemática usada para representar los espacios de estados[cite: 174, 283]. [cite_start]Un grafo es simplemente un conjunto de **vértices** (puntos) conectados por **aristas** (líneas)[cite: 360]. [cite_start]Pueden ser **No Dirigidos** (la conexión es en ambos sentidos [cite: 366][cite_start]) o **Dirigidos** (la conexión es una flecha en un solo sentido [cite: 368]).
+
+---
+
+### 3.REPRESENTACIÓN DEL CONOCIMIENTO Y RAZONAMIENTO
+
+Una vez que tienes un problema, necesitas una forma de almacenar el "conocimiento" sobre ese problema y un método para "razonar" con él.
+
+* Sistemas Expertos (SE):
+    * Son una de las ramas más clásicas de la IA. [cite_start]Su objetivo es **emular el razonamiento de un experto humano** en un área muy específica (un dominio concreto)[cite: 37], como un médico diagnosticando enfermedades o un geólogo buscando petróleo.
+    * **Estructura Básica:**
+        1.  [cite_start]**Base de Conocimientos (BC):** Es donde se guarda el conocimiento modelado del experto[cite: 55].
+        2.  [cite_start]**Base de Hechos:** Contiene los datos del problema *actual*[cite: 56].
+        3.  **Motor de Inferencia:** Es el "cerebro" del sistema. [cite_start]Modela el proceso de razonamiento humano[cite: 57].
+        4.  [cite_start]**Módulo de Justificación:** Permite al sistema "explicar" cómo llegó a esa conclusión[cite: 58].
+    * [cite_start]**Tipos de SE:** Se pueden construir basados en **reglas** [cite: 62][cite_start], basados en **casos** (comparando con problemas pasados [cite: 63, 67][cite_start]), o basados en **redes bayesianas** (usando probabilidad [cite: 64, 68]).
+    * [cite_start]**Ventajas:** No envejecen (permanencia) [cite: 72][cite_start], se pueden copiar fácilmente (replicación) [cite: 73][cite_start], y son rápidos [cite: 74] [cite_start]y fiables[cite: 77].
+    * [cite_start]**Limitaciones:** Carecen totalmente de **sentido común** [cite: 82][cite_start], no entienden bien el lenguaje natural [cite: 84] [cite_start]y su capacidad de aprender por sí solos es muy limitada[cite: 85].
+
+* Reglas y Lógica:
+    * Esta es la forma más común de representar el conocimiento en un SE. [cite_start]El temario incluye "Reglas de producción" y "Métodos de Inferencia" como temas clave[cite: 575].
+    * [cite_start]**Redes Bayesianas / Teorema de Bayes:** Es un enfoque basado en probabilidad[cite: 33, 68]. [cite_start]El Teorema de Bayes (mencionado en el temario) es una fórmula matemática para actualizar una creencia basándose en nueva evidencia[cite: 575].
+
+---
+
+### 4.TÉCNICAS Y APLICACIONES (MACHINE LEARNING)
+
+Esta sección cubre las técnicas modernas de IA donde la máquina "aprende" de los datos, en lugar de ser programada con reglas explícitas.
+
+* Redes Neuronales (RN):
+    * [cite_start]**Concepto:** Son modelos inspirados en cómo funcionan las redes de neuronas en los cerebros biológicos [cite: 377][cite_start], aunque la inspiración es biológica, el enfoque actual es puramente matemático y estadístico[cite: 379].
+    * **Objetivo:** Se usan para encontrar patrones complejos. [cite_start]La red "aprende" a encontrar la "combinación" correcta de parámetros de entrada para "predecir" un resultado de salida[cite: 380, 383].
+    * [cite_start]**Perceptrón (Unidad Básica):** Es la "neurona" artificial más simple[cite: 390]. [cite_start]Tiene varias entradas, y cada entrada tiene un **"peso"** (que indica su importancia)[cite: 391]. El perceptrón suma las entradas multiplicadas por sus pesos. [cite_start]Si el total supera un umbral, la neurona se "activa" (da un 1); si no, se queda en 0[cite: 392, 393].
+    * **Entrenamiento (Aprendizaje):** Este es el proceso clave. [cite_start]La red "aprende" ajustando esos pesos[cite: 395]. [cite_start]Se le muestran muchos ejemplos (datos de entrenamiento) y, si se equivoca en la predicción, usa un algoritmo de **retroalimentación** (*backpropagation*) para "ajustar los pesos poco a poco" y reducir el error[cite: 397, 410].
+    * **Redes Multicapa:** Un solo perceptrón es muy limitado. [cite_start]Para problemas complejos, se usan redes con **"capas ocultas"** (capas de neuronas intermedias) entre la entrada y la salida[cite: 425, 433]. [cite_start]Estas capas intermedias permiten a la red aprender a detectar "características" cada vez más complejas[cite: 454].
+    * [cite_start]**Función Sigmoide:** En las redes modernas, en lugar de la salida brusca 0 o 1 (función "escalón"), se usan funciones "suaves" como la sigmoide[cite: 474]. [cite_start]Esto es crucial porque permite que pequeños cambios en los pesos generen pequeños cambios en la salida[cite: 475], lo que hace que el proceso de "aprender" (el ajuste de pesos) sea mucho más estable y eficiente.
+    * [cite_start]**Redes Neuronales Convolucionales (CNN):** Son un tipo especial de red neuronal que funciona increíblemente bien para **imágenes** y **voz**[cite: 479]. [cite_start]En lugar de mirar la imagen entera de golpe, "buscan características locales en pequeños grupos de entradas" (por ejemplo, grupos de píxeles)[cite: 483]. [cite_start]Aprenden a detectar cosas como bordes o colores en partes pequeñas [cite: 485, 490][cite_start], y luego combinan esas características para reconocer objetos más complejos[cite: 491, 492].
+
+* Otras Aplicaciones (del temario):
+    [cite_start]El temario también lista otras áreas de aplicación importantes de la IA[cite: 582], como:
+    * **Robótica**
+    * **Visión artificial**
+    * **Lógica difusa (Fuzzy Logic)** (una lógica que maneja grados de verdad, como "un poco frío" en lugar de solo "frío" o "caliente")
+    * **Procesamiento de Lenguaje Natural (PLN)** (la habilidad de entender y generar lenguaje humano)
+
+---
+
+### 5. TÓPICOS ADICIONALES (Fuera de las Fuentes)
+
+Los siguientes temas que mencionaste en tu lista original **no se explican en los documentos PDF** que me proporcionaste. Son temas muy relevantes de IA, pero no forman parte del contenido de esos apuntes o ese temario:
+
+* Análisis de información
+* Detección de manos de mediapipe en python
+* Tutorial básico de pygame
+* Web scraping
+* Introducción a los Embeddings
+* Ollama
+* Spacy
+* Embedding de texto para vectorización en IA
+

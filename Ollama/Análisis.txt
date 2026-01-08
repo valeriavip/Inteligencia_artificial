@@ -1,0 +1,5 @@
+Análisis
+Gemma3:1b
+{"prompt": "Escribe una función en Python que sume dos números.", "response": "```python\ndef suma(a, b):\n  \"\"\"Esta función toma dos números como entrada y devuelve su suma.\"\n  return a + b\n\n# Ejemplo de uso\nresultado = suma(5, 3)\nprint(resultado)\n```\n\nEsta función toma dos números como entrada, los suma y devuelve el resultado.\nLa función tiene un nombre llamado 'suma' que toma dos parámetros, 'a' y 'b'. La función devuelve la suma de 'a' y 'b'.  El ejemplo de uso muestra cómo llamar a la función con los argumentos 5 y 3.  El resultado de la suma es 8.\n\nEsta es una función de Python simple que suma dos números.\n\nEl código anterior demuestra cómo usar la función suma.\n\nEjemplo de ejecucion:\n```python\nprint(suma(5,3))\n```\n\nEsto produce el siguiente resultado:\n```\n8\n```"}
+}
+

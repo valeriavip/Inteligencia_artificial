@@ -28,7 +28,7 @@ query = "¿Qué es Frankestein?"
 corpus_embeddings = model.encode(corpus)
 query_embedding = model.encode([query])
 
-# Similaridad coseno
+# Similitud coseno
 similarities = cosine_similarity([query_embedding[0]], corpus_embeddings)[0]
 
 # Resultados ordenados

@@ -20,13 +20,12 @@ df = pd.read_csv(archivo)
 # Rellenar vacíos para evitar errores
 df['texto'] = df['texto'].fillna('')
 
-# --- Crear el "Índice" de Textos ---
-# Usamos todo el dataset
+# Crear el "Índice" de Textos 
 print("Indexando dataset...")
 count_vectorizer = CountVectorizer(stop_words=lista_stopwords)
-matrix_dataset = count_vectorizer.fit_transform(df['texto']) # Aprende el vocabulario
+matrix_dataset = count_vectorizer.fit_transform(df['texto']) 
 
-# --- Motor de Búsqueda ---
+# Motor de Búsqueda 
 def buscar_texto(consulta, top_n=100):
     """
     Busca la consulta en el dataset usando similitud del coseno.
@@ -46,7 +45,7 @@ def buscar_texto(consulta, top_n=100):
     print(f"\n--- Resultados para: '{consulta}' ---")
     for i in indices_top:
         score = similitudes[i]
-        if score > 0: # Mostramos si hay coincidencia
+        if score > 0: 
             id_tweet = df.iloc[i]['id']
             texto = df.iloc[i]['texto']
             resultados.append({'id': id_tweet, 'texto': texto, 'score': score})
@@ -55,20 +54,20 @@ def buscar_texto(consulta, top_n=100):
     
     return pd.DataFrame(resultados), scores
 
-# --- Búsqueda ---
+# Búsqueda 
 mi_consulta = "Antes los proyectos de vida eran a largo plazo; hoy parece que nuestra identidad cambia tan rápido como las tendencias en TikTok." 
 
 df_resultados, scores = buscar_texto(mi_consulta)
 
-# --- Visualización ---
+# Visualización 
 if not df_resultados.empty:
     plt.figure(figsize=(10, 5))
-    # Gráfico
+
     plt.barh(df_resultados['id'].astype(str), df_resultados['score'], color='skyblue')
     plt.xlabel('Similitud del Coseno (0-1)')
     plt.ylabel('ID del Tweet')
     plt.title(f'Top coincidencias para: "{mi_consulta}"')
-    plt.gca().invert_yaxis() # Invertir eje Y para que el #1 quede arriba
+    plt.gca().invert_yaxis() 
     plt.show()
 else:
     print("No se encontraron coincidencias.")

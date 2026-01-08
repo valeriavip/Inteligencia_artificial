@@ -8,13 +8,13 @@ import pandas as pd
 vec1 = np.array([[1,1,0,1,1]])
 vec2 = np.array([[0,1,0,1,1]])
 
-# Descargar la lista de palabras vacías (solo necesitas correr esto una vez)
+# Descargar la lista de palabras vacías
 try:
     nltk.data.find('corpora/stopwords')
 except LookupError:
     nltk.download('stopwords')
 
-# 1. Obtener la lista de stopwords en español de NLTK
+# Obtener la lista de stopwords 
 lista_stopwords = stopwords.words('spanish')
 
 print(cosine_similarity(vec1, vec2))

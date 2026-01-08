@@ -53,29 +53,28 @@ while cap.isOpened():
 
             lm = face_landmarks.landmark 
             
-            # Usamos la distancia entre los ojos como "unidad" base, por si afecta el zoom
+            # Distancia entre ojos
             inter_eye_dist = get_pixel_dist(lm[LEFT_EYE_INNER], lm[RIGHT_EYE_INNER])
             if inter_eye_dist == 0: continue
 
             # --- Métricas ---
 
-            #Enojo: Cejas bajas y juntas
+            #Enojo
             # Distancia entre cejas 
             inter_brow_ratio = get_pixel_dist(lm[LEFT_BROW_INNER], lm[RIGHT_BROW_INNER]) / inter_eye_dist
             # Distancia ceja-ojo 
             brow_eye_ratio = (get_pixel_dist(lm[LEFT_BROW_INNER], lm[LEFT_EYE_INNER]) + 
                               get_pixel_dist(lm[RIGHT_BROW_INNER], lm[RIGHT_EYE_INNER])) / 2 / inter_eye_dist
 
-            # Felicidad: Comisuras anchas
+            # Felicidad / Tristeza
+            # Ancho de boca
             horizontal_mouth_ratio = get_pixel_dist(lm[MOUTH_LEFT], lm[MOUTH_RIGHT]) / inter_eye_dist
 
-            # Tristeza/Felicidad: Comisuras de la boca. Y va de 0 [arriba] a 1 [abajo]
             corner_y = (lm[MOUTH_LEFT].y + lm[MOUTH_RIGHT].y) / 2
             top_lip_y = lm[LIP_TOP].y
             bottom_lip_y = lm[LIP_BOTTOM].y
-
-            #print(f"Ratio Cejas Juntas: {inter_brow_ratio:.2f} | Ratio Cejas Bajas: {brow_eye_ratio:.2f} | Ratio Boca Ancha: {horizontal_mouth_ratio:.2f}")
             
+            # Clasificación 
             emocion = None
             color = (255, 255, 255)
 
@@ -97,7 +96,7 @@ while cap.isOpened():
 
             # Resultado
             x_min = int(lm[MOUTH_LEFT].x * width) - 30
-            y_min = int(lm[LEFT_BROW_INNER].y * height) - 40 # Texto
+            y_min = int(lm[LEFT_BROW_INNER].y * height) - 40 
             
             cv2.putText(frame, emocion, (x_min, y_min), cv2.FONT_HERSHEY_SIMPLEX, 1, color, 2, cv2.LINE_AA)
 

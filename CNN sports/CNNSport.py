@@ -127,7 +127,7 @@ print(train_X.shape, valid_X.shape, train_label.shape, valid_label.shape)
 # ----------------------------------------------------------------
 
 INIT_LR = 1e-3
-epochs = 20 # Aumentado para mejor entrenamiento
+epochs = 20 
 batch_size = 64
 
 sport_model = Sequential()
@@ -167,4 +167,4 @@ history = sport_model.fit(
 
 # Guardar el modelo completo
 sport_model.save('modelo_deportes.h5')
-print("✅ Modelo guardado como 'modelo_deportes.h5'")
+print(" Modelo guardado como 'modelo_deportes.h5'")

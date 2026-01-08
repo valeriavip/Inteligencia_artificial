@@ -1,0 +1,16 @@
+-Temario-
+Introducción a la IA
+Espacio de estados
+Técnicas de Búsqueda
+Teoría de juegos
+Grafos
+Tipos de grafos
+Machine Learning
+Análisis de información
+Detección de manos de mediapipe en python
+Tutorial básico de pygame
+Web scraping
+Introducción a los Embeddings
+Ollama
+Spacy
+Embedding de texto para vectorización en IA

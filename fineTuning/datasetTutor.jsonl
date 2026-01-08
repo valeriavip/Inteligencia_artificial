@@ -1,0 +1,300 @@
+{"prompt": "¿Qué es un compilador?", "response": "Es un programa que traduce el código escrito por un humano a lenguaje máquina para que la computadora lo entienda."}
+{"prompt": "¿Qué es un lenguaje de alto nivel?", "response": "Es un lenguaje con sintaxis cercana al lenguaje humano, como Python o Java, que facilita la programación."}
+{"prompt": "Explica el concepto de 'Case Sensitive'.", "response": "Significa que el lenguaje distingue entre mayúsculas y minúsculas. 'Variable' y 'variable' serían distintas."}
+{"prompt": "¿Qué es una palabra reservada?", "response": "Es una palabra propia del lenguaje (como 'if', 'while', 'return') que no puedes usar para nombrar variables."}
+{"prompt": "Define 'pseudocódigo'.", "response": "Es una forma de escribir algoritmos usando lenguaje natural mezclado con lógica de programación, sin seguir una sintaxis rígida."}
+{"prompt": "¿Qué es la concatenación?", "response": "Es la operación de unir dos o más cadenas de texto en una sola. Ejemplo: 'Hola ' + 'Mundo'."}
+{"prompt": "Diferencia entre '=' y '=='.", "response": "El signo '=' asigna un valor a una variable; '==' compara si dos valores son iguales."}
+{"prompt": "¿Qué es un operador de incremento?", "response": "Es un símbolo (++) que aumenta en 1 el valor de una variable. Común en C, C++ y Java."}
+{"prompt": "¿Qué hace el operador 'OR' (||)?", "response": "Devuelve verdadero si al menos una de las condiciones comparadas es verdadera."}
+{"prompt": "Explica el tipo de dato 'char'.", "response": "Se usa para almacenar un solo carácter, como una letra, un número o un símbolo. Ejemplo: 'A'."}
+{"prompt": "¿Qué es una estructura de control?", "response": "Es un bloque de código que decide el flujo de ejecución del programa basándose en condiciones o repeticiones."}
+{"prompt": "Haz un switch básico en JS.", "response": "switch(color) { case 'rojo': console.log('Alto'); break; default: console.log('Siga'); }"}
+{"prompt": "¿Para qué sirve el bucle 'do-while'?", "response": "A diferencia del 'while', el 'do-while' garantiza que el código se ejecute al menos una vez antes de revisar la condición."}
+{"prompt": "¿Qué es un acumulador?", "response": "Es una variable que se actualiza sumando valores sucesivos. Ejemplo: suma = suma + valor."}
+{"prompt": "¿Qué es un contador?", "response": "Es una variable que aumenta de forma constante, generalmente de uno en uno, para contar sucesos o vueltas."}
+{"prompt": "¿Cómo se define un array vacío en Python?", "response": "Se define usando corchetes sin contenido: mi_lista = []"}
+{"prompt": "Diferencia entre array y lista en Python.", "response": "Las listas son nativas y dinámicas; los arrays suelen requerir la librería 'array' o 'numpy' para ser más eficientes en memoria."}
+{"prompt": "¿Qué es un índice fuera de rango (Out of bounds)?", "response": "Es un error que ocurre al intentar acceder a una posición del array que no existe (ej. pedir el elemento 10 en un array de 5)."}
+{"prompt": "¿Qué es una función 'void'?", "response": "Es una función que realiza una tarea pero no devuelve ningún dato al finalizar."}
+{"prompt": "¿Qué son los argumentos de una función?", "response": "Son los valores reales que le pasas a la función cuando la llamas."}
+{"prompt": "Define 'recursividad' de forma simple.", "response": "Es cuando una función se resuelve llamándose a sí misma con un caso más pequeño hasta llegar a un caso base."}
+{"prompt": "¿Qué es el valor de retorno?", "response": "Es el dato que una función envía de vuelta al lugar donde fue invocada mediante la palabra 'return'."}
+{"prompt": "Explica qué es un objeto en programación.", "response": "Es una entidad que agrupa datos (propiedades) y acciones (métodos) que representan algo del mundo real."}
+{"prompt": "¿Qué es una clase?", "response": "Es el molde o plantilla a partir de la cual se crean los objetos."}
+{"prompt": "Define 'instanciar' un objeto.", "response": "Es el proceso de crear un objeto específico a partir de una clase definida."}
+{"prompt": "¿Qué es un constructor?", "response": "Es un método especial que se ejecuta automáticamente al crear un objeto para inicializar sus atributos."}
+{"prompt": "¿Qué es el encapsulamiento?", "response": "Es ocultar los detalles internos de un objeto y proteger sus datos, permitiendo el acceso solo mediante métodos seguros."}
+{"prompt": "Explica la herencia brevemente.", "response": "Permite que una clase nueva (hija) obtenga atributos y métodos de otra clase ya existente (padre)."}
+{"prompt": "¿Qué es el polimorfismo?", "response": "Es la capacidad de diferentes objetos de responder de forma distinta a un mismo mensaje o método."}
+{"prompt": "¿Para qué sirve el bloque try-catch?", "response": "Sirve para manejar errores o excepciones; el código en 'try' se intenta ejecutar y si falla, el error se captura en 'catch'."}
+{"prompt": "¿Qué es un archivo .h en C?", "response": "Es un archivo de cabecera (header) que contiene declaraciones de funciones y definiciones para compartir entre archivos .c."}
+{"prompt": "Explica la función 'main'.", "response": "Es el punto de entrada principal de cualquier programa en lenguajes como C, C++ o Java."}
+{"prompt": "¿Qué es el casting o conversión de tipos?", "response": "Es el proceso de transformar un dato de un tipo a otro, por ejemplo, convertir un float a int."}
+{"prompt": "¿Qué es una librería o biblioteca?", "response": "Es un conjunto de funciones y herramientas ya programadas que puedes importar para no escribir todo desde cero."}
+{"prompt": "¿Cómo se importa una librería en Python?", "response": "Se utiliza la palabra reservada 'import' seguida del nombre de la librería. Ejemplo: import math."}
+{"prompt": "¿Qué es un puntero?", "response": "Es una variable que en lugar de un valor, guarda la dirección de memoria de otra variable."}
+{"prompt": "Define 'NaN'.", "response": "Significa 'Not a Number' y ocurre cuando el resultado de una operación matemática no tiene sentido numérico."}
+{"prompt": "¿Qué es una expresión lambda?", "response": "Es una función anónima y corta que se escribe en una sola línea de código."}
+{"prompt": "¿Qué es el 'IDE'?", "response": "Es un Entorno de Desarrollo Integrado, un programa que combina editor de código, compilador y depurador."}
+{"prompt": "Explica el término 'Debug' o 'Depuración'.", "response": "Es el proceso de buscar, encontrar y corregir errores en el código."}
+{"prompt": "¿Qué es un comentario multilínea en JS?", "response": "Se escribe encerrando el texto entre /* y */."}
+{"prompt": "¿Qué es un booleano?", "response": "Es un tipo de dato que solo puede tener dos valores: verdadero (true) o falso (false)."}
+{"prompt": "¿Qué hace el operador de desigualdad (!=)?", "response": "Verifica si dos valores son diferentes; devuelve true si no son iguales."}
+{"prompt": "¿Para qué sirve el comando 'printf'?", "response": "Se usa en lenguaje C para mostrar texto o valores de variables en la pantalla."}
+{"prompt": "Crea una lista con 3 frutas en Python.", "response": "frutas = ['manzana', 'pera', 'uva']"}
+{"prompt": "¿Cómo se comenta una sola línea en Python?", "response": "Usando el símbolo de almohadilla (#) al inicio de la línea."}
+{"prompt": "¿Qué es una variable global?", "response": "Es una variable declarada fuera de cualquier función que puede ser accedida desde cualquier parte del programa."}
+{"prompt": "¿Qué es una variable local?", "response": "Es una variable declarada dentro de una función y que solo existe mientras esa función se ejecuta."}
+{"prompt": "¿Qué es el código fuente?", "response": "Es el texto escrito por el programador en un lenguaje de programación específico antes de ser procesado."}
+{"prompt": "¿Qué es un algoritmo de ordenamiento?", "response": "Es un método paso a paso para organizar elementos en una lista en un orden específico (ej. de menor a mayor)."}
+{"prompt": "¿Qué es una constante en C?", "response": "Se define con 'const' o '#define' y es un valor que no cambia, como #define PI 3.1416"}
+{"prompt": "¿Qué es un 'string literal'?", "response": "Es el texto escrito directamente entre comillas dentro del código, como 'Hola'."}
+{"prompt": "¿Cómo se define un objeto literal en JS?", "response": "let coche = { marca: 'Toyota', modelo: 'Corolla' };"}
+{"prompt": "¿Qué hace la función input() en Python?", "response": "Detiene el programa y permite al usuario escribir algo desde el teclado."}
+{"prompt": "¿Qué es un error de tiempo de ejecución (Runtime error)?", "response": "Es un error que ocurre mientras el programa ya se está ejecutando, como dividir un número entre cero."}
+{"prompt": "Explica la estructura de un bucle 'for' en Java/C.", "response": "for(inicio; condición; incremento) { // código }"}
+{"prompt": "¿Qué es un archivo JSON?", "response": "Es un formato ligero de intercambio de datos basado en texto, fácil de leer para humanos y máquinas."}
+{"prompt": "¿Para qué sirve el operador ternario?", "response": "Es una forma corta de escribir un IF/ELSE en una sola línea. Ejemplo: condicion ? true : false;"}
+{"prompt": "¿Qué es el 'NullPointerException'?", "response": "Un error común en Java que ocurre al intentar acceder a un objeto que no ha sido inicializado (es nulo)."}
+{"prompt": "¿Qué significa indentar el código?", "response": "Es mover un bloque de código hacia la derecha para indicar que depende de una estructura superior (if, for, etc.)."}
+{"prompt": "Diferencia entre 'print' y 'return'.", "response": "'print' muestra algo en pantalla; 'return' devuelve un valor para ser usado en el resto del programa."}
+{"prompt": "¿Qué es un bucle 'foreach'?", "response": "Es un bucle especializado en recorrer todos los elementos de una colección o lista uno por uno."}
+{"prompt": "¿Qué es una estructura de datos?", "response": "Es una forma organizada de almacenar y manejar datos en la memoria de la computadora."}
+{"prompt": "Define 'pila' (Stack).", "response": "Es una estructura de datos donde el último elemento en entrar es el primero en salir (LIFO)."}
+{"prompt": "Define 'cola' (Queue).", "response": "Es una estructura de datos donde el primer elemento en entrar es el primero en salir (FIFO)."}
+{"prompt": "¿Qué es una función anónima?", "response": "Es una función que se define sin un nombre, generalmente para ser usada como argumento en otra función."}
+{"prompt": "Explica el concepto de 'scope' global.", "response": "Se refiere a variables que están disponibles durante toda la vida del programa en cualquier módulo."}
+{"prompt": "¿Cómo se detiene un bucle While?", "response": "Asegurando que la condición se vuelva falsa en algún momento o usando la palabra 'break'."}
+{"prompt": "¿Qué es una interfaz en POO?", "response": "Es un contrato que define qué métodos debe tener una clase, pero sin decir cómo deben funcionar."}
+{"prompt": "¿Qué es la 'firma' de una función?", "response": "Es la combinación del nombre de la función y los parámetros que recibe."}
+{"prompt": "Crea un comentario en C++.", "response": "Se usa // para una línea o /* */ para varias líneas."}
+{"prompt": "¿Qué es un tipo de dato primitivo?", "response": "Son los tipos básicos que ya vienen con el lenguaje, como int, char, float y boolean."}
+{"prompt": "¿Qué es la 'reutilización de código'?", "response": "Es la práctica de escribir código que pueda ser usado en diferentes partes del programa o en otros proyectos."}
+{"prompt": "Explica qué es un 'módulo'.", "response": "Es un archivo que contiene código relacionado que puede ser importado y usado en otros archivos."}
+{"prompt": "¿Para qué sirve el comando 'npm'?", "response": "Es el gestor de paquetes de Node.js, usado para instalar librerías externas en proyectos de JavaScript."}
+{"prompt": "¿Qué es un 'script'?", "response": "Es un archivo de código, generalmente pequeño, que se ejecuta sin necesidad de ser compilado previamente."}
+{"prompt": "Explica la palabra 'this' en JS.", "response": "Hace referencia al objeto actual en el que se está ejecutando el código."}
+{"prompt": "¿Qué es una excepción?", "response": "Es un evento inesperado que ocurre durante la ejecución del programa y que altera su flujo normal."}
+{"prompt": "Define 'API' de forma sencilla.", "response": "Es un conjunto de reglas y funciones que permiten que un programa se comunique con otro."}
+{"prompt": "¿Qué es el 'camelCase'?", "response": "Es una forma de escribir nombres de variables uniendo palabras y poniendo la primera letra de cada palabra en mayúscula, excepto la primera. Ejemplo: miVariableEspecial."}
+{"prompt": "¿Qué es un 'booleano' en Python?", "response": "Se representan con True y False (la primera letra siempre en mayúscula)."}
+{"prompt": "Corrige este código en Python: print 'Hola'", "response": "En Python 3 falta el paréntesis: print('Hola')"}
+{"prompt": "¿Qué hace el método .push() en un array de JS?", "response": "Agrega uno o más elementos al final del array."}
+{"prompt": "¿Qué hace el método .pop() en un array de JS?", "response": "Elimina el último elemento del array y lo devuelve."}
+{"prompt": "¿Qué es un 'entorno virtual' en Python?", "response": "Es una herramienta para crear carpetas aisladas con sus propias librerías, evitando conflictos entre proyectos."}
+{"prompt": "¿Qué es un repositorio de código?", "response": "Es un lugar (como GitHub) donde se guarda y se gestiona el historial de versiones de un proyecto de software."}
+{"prompt": "¿Qué es Git?", "response": "Es un sistema de control de versiones que registra los cambios en los archivos de un proyecto."}
+{"prompt": "Define 'commit'.", "response": "Es un guardado o captura de los cambios realizados en el código en un momento específico."}
+{"prompt": "¿Qué es una 'rama' (branch) en Git?", "response": "Es una línea de desarrollo independiente que permite trabajar en funciones nuevas sin afectar el código principal."}
+{"prompt": "¿Qué hace el comando 'git clone'?", "response": "Copia un repositorio remoto completo a tu computadora local."}
+{"prompt": "¿Qué es una 'tupla' en Python?", "response": "Es una colección de elementos similar a una lista, pero es inmutable (no se puede cambiar una vez creada)."}
+{"prompt": "¿Cómo se define una tupla en Python?", "response": "Se define usando paréntesis: mi_tupla = (1, 2, 3)"}
+{"prompt": "Explica el operador de asignación compuesta (+=).", "response": "Suma un valor a la variable actual y guarda el resultado en ella misma. x += 5 es igual a x = x + 5."}
+{"prompt": "¿Qué es un 'diccionario' en Python?", "response": "Es una estructura que guarda datos en pares de clave y valor. Ejemplo: {'nombre': 'Juan', 'edad': 25}"}
+{"prompt": "¿Cómo accedes a un valor en un diccionario?", "response": "Usando su clave entre corchetes: mi_diccionario['nombre']"}
+{"prompt": "Diferencia entre == y === en JavaScript.", "response": "== compara valores ignorando el tipo; === compara tanto el valor como el tipo de dato."}
+{"prompt": "¿Qué es un 'undefined' en JavaScript?", "response": "Es el valor que tiene una variable que ha sido declarada pero a la que aún no se le ha asignado nada."}
+{"prompt": "¿Qué es el 'asincronismo'?", "response": "Es una forma de programar donde ciertas tareas pueden ejecutarse en segundo plano sin detener el resto del programa."}
+{"prompt": "¿Para qué sirve 'await' en JS?", "response": "Se usa para esperar a que una promesa (tarea asíncrona) termine antes de seguir con la siguiente línea."}
+{"prompt": "¿Qué es una cadena de texto inmutable?", "response": "Es un string que no se puede modificar carácter por carácter; para cambiarlo debes crear un string nuevo."}
+{"prompt": "¿Qué es un algoritmo de búsqueda?", "response": "Es un conjunto de instrucciones diseñadas para localizar un elemento específico dentro de una estructura de datos."}
+{"prompt": "Define 'Búsqueda Lineal'.", "response": "Es el método más simple: recorre cada elemento de la lista uno por uno hasta encontrar el valor buscado."}
+{"prompt": "¿Qué es la 'Búsqueda Binaria'?", "response": "Es un algoritmo eficiente que divide una lista ordenada a la mitad repetidamente hasta encontrar el valor."}
+{"prompt": "Explica el concepto de 'Abstracción'.", "response": "Es simplificar un sistema complejo ocultando los detalles de implementación y mostrando solo lo esencial."}
+{"prompt": "¿Qué es una 'clase abstracta'?", "response": "Es una clase que no se puede instanciar directamente y sirve como base para que otras clases hereden de ella."}
+{"prompt": "¿Qué es un 'método'?", "response": "Es una función que está definida dentro de una clase y representa una acción que el objeto puede realizar."}
+{"prompt": "Diferencia entre atributo y variable.", "response": "Un atributo es una variable que pertenece a una clase; una variable normal existe fuera de ella o dentro de funciones."}
+{"prompt": "¿Qué es el 'Garbage Collector'?", "response": "Es un proceso automático en lenguajes como Java o Python que libera la memoria de objetos que ya no se usan."}
+{"prompt": "¿Qué significa 'compilar' un programa?", "response": "Es transformar el código fuente en un archivo ejecutable que el sistema operativo puede procesar."}
+{"prompt": "¿Qué es un 'entorno de ejecución' (Runtime)?", "response": "Es el software diseñado para ejecutar otros programas, proporcionando los recursos necesarios mientras corren."}
+{"prompt": "¿Qué es el lenguaje de máquina?", "response": "Es el nivel más bajo de código, compuesto por ceros y unos (binario), que el procesador entiende directamente."}
+{"prompt": "¿Qué es el lenguaje ensamblador?", "response": "Es un lenguaje de bajo nivel que usa mnemónicos para representar instrucciones directas del procesador."}
+{"prompt": "Define 'Framework'.", "response": "Es un conjunto de herramientas, librerías y reglas de trabajo preestablecidas para facilitar el desarrollo de software."}
+{"prompt": "¿Qué es una 'promesa' en JavaScript?", "response": "Es un objeto que representa el éxito o fracaso de una operación asíncrona que aún no ha terminado."}
+{"prompt": "Explica el operador de identidad '===' en JS.", "response": "Compara si dos valores son iguales y si también son del mismo tipo de dato."}
+{"prompt": "¿Qué es un 'Template String'?", "response": "Es una forma de crear cadenas de texto que permiten insertar variables fácilmente usando `backticks` y ${variable}."}
+{"prompt": "¿Qué hace el método .map() en JS?", "response": "Crea un nuevo array transformando cada elemento del array original mediante una función."}
+{"prompt": "¿Qué hace el método .filter() en JS?", "response": "Crea un nuevo array que contiene solo los elementos que cumplen con una condición específica."}
+{"prompt": "¿Qué es una 'callback'?", "response": "Es una función que se pasa a otra función como argumento para ser ejecutada después de que ocurra algo."}
+{"prompt": "Explica el concepto de 'Hoisting' en JS.", "response": "Es el comportamiento donde las declaraciones de variables y funciones se mueven lógicamente al principio del código."}
+{"prompt": "¿Qué es un 'Set' en programación?", "response": "Es una colección de elementos donde no se permiten valores duplicados."}
+{"prompt": "Define 'Inmutabilidad'.", "response": "Es la propiedad de un objeto o variable cuyo valor no puede ser modificado después de su creación."}
+{"prompt": "¿Qué es una 'expresión regular' (Regex)?", "response": "Es una secuencia de caracteres que forma un patrón de búsqueda, usada para validar texto como emails o fechas."}
+{"prompt": "¿Qué hace el comando 'pip' en Python?", "response": "Es el gestor de paquetes estándar de Python para instalar y administrar librerías externas."}
+{"prompt": "Explica la función 'range()' en Python.", "response": "Genera una secuencia de números, muy útil para controlar la cantidad de vueltas en un bucle for."}
+{"prompt": "¿Qué es un 'decorador' en Python?", "response": "Es una función que envuelve a otra función para modificar su comportamiento sin cambiar su código fuente."}
+{"prompt": "Diferencia entre 'is' y '==' en Python.", "response": "'==' compara si los valores son iguales; 'is' compara si ambos objetos son exactamente el mismo en memoria."}
+{"prompt": "¿Qué es una 'comprensión de listas' (list comprehension)?", "response": "Es una forma elegante y compacta de crear listas en Python en una sola línea de código."}
+{"prompt": "¿Qué es el 'PEP 8'?", "response": "Es la guía oficial de estilo para escribir código Python de forma legible y estandarizada."}
+{"prompt": "¿Qué es un 'puntero nulo' (null pointer)?", "response": "Es un puntero que no apunta a ninguna dirección de memoria válida, usualmente indica el fin de una estructura."}
+{"prompt": "Define 'fuga de memoria' (Memory Leak).", "response": "Ocurre cuando un programa reserva memoria y olvida liberarla, agotando los recursos del sistema con el tiempo."}
+{"prompt": "¿Qué es el desbordamiento de búfer (Buffer Overflow)?", "response": "Es un error que ocurre cuando un programa escribe más datos de los que caben en un espacio de memoria reservado."}
+{"prompt": "¿Qué es una 'variable estática'?", "response": "Es una variable que mantiene su valor entre llamadas a funciones o que pertenece a la clase y no a una instancia."}
+{"prompt": "¿Para qué sirve el comando 'git push'?", "response": "Sube tus cambios locales (commits) a un repositorio remoto como GitHub."}
+{"prompt": "¿Para qué sirve el comando 'git pull'?", "response": "Descarga e integra los cambios del repositorio remoto en tu copia local actual."}
+{"prompt": "¿Qué es un 'Merge Conflict'?", "response": "Ocurre cuando dos personas editan la misma línea de un archivo en Git y el sistema no sabe cuál versión conservar."}
+{"prompt": "¿Qué es el 'README.md'?", "response": "Es un archivo de texto con formato Markdown que explica de qué trata un proyecto y cómo instalarlo."}
+{"prompt": "Explica el tipo de dato 'BigInt'.", "response": "Se usa para representar números enteros muy grandes que superan el límite del tipo de dato entero estándar."}
+{"prompt": "¿Qué es un 'scripting language'?", "response": "Es un lenguaje de programación que se interpreta en tiempo de ejecución, generalmente para automatizar tareas."}
+{"prompt": "¿Qué hace la palabra 'continue' en un bucle?", "response": "Salta el resto del código en la iteración actual y pasa directamente a la siguiente vuelta del bucle."}
+{"prompt": "¿Qué es una 'asertación' (assert)?", "response": "Es una instrucción que comprueba si una condición es verdadera; si es falsa, el programa lanza un error para depuración."}
+{"prompt": "¿Qué es un 'test unitario'?", "response": "Es un pequeño código escrito para verificar que una función o parte específica del programa funciona correctamente."}
+{"prompt": "Define 'Refactorización'.", "response": "Es mejorar la estructura interna del código sin cambiar su comportamiento externo para hacerlo más limpio."}
+{"prompt": "¿Qué es una 'constante mágica'?", "response": "Es un valor numérico o de texto usado directamente en el código sin explicación; se considera mala práctica."}
+{"prompt": "¿Qué es la 'concatenación de métodos' (method chaining)?", "response": "Es llamar a varios métodos seguidos en una sola línea, como: objeto.uno().dos().tres();"}
+{"prompt": "¿Qué es un 'argumento por defecto'?", "response": "Es un valor que se asigna automáticamente a un parámetro si el usuario no proporciona uno al llamar la función."}
+{"prompt": "¿Qué es la recursión infinita?", "response": "Ocurre cuando una función recursiva no tiene un caso base, provocando que se llame a sí misma hasta agotar la memoria."}
+{"prompt": "¿Qué es el 'Stack Overflow'?", "response": "Es un error que ocurre cuando se agota el espacio de la pila de llamadas, usualmente por una recursión infinita."}
+{"prompt": "¿Qué es el 'Heap'?", "response": "Es una región de la memoria usada para la asignación dinámica de objetos y datos de gran tamaño."}
+{"prompt": "¿Qué es una 'variable de entorno'?", "response": "Es un valor configurado en el sistema operativo que las aplicaciones pueden consultar (ej. claves de API o rutas)."}
+{"prompt": "¿Qué es el 'Parsing'?", "response": "Es el proceso de analizar una cadena de texto para convertirla en una estructura de datos que el programa entienda."}
+{"prompt": "¿Qué es un 'diccionario ordenado'?", "response": "Es una estructura de clave-valor que mantiene el orden en el que se insertaron los elementos."}
+{"prompt": "Define 'Boilerplate'.", "response": "Es código repetitivo que se necesita incluir en muchos lugares con pocos cambios para que el programa funcione."}
+{"prompt": "¿Qué es un 'Slug'?", "response": "Es una versión amigable de un texto para URLs, generalmente en minúsculas y con guiones (ej. 'hola-mundo')."}
+{"prompt": "Explica la diferencia entre 'concurrencia' y 'paralelismo'.", "response": "Concurrencia es manejar varias tareas a la vez; paralelismo es ejecutar varias tareas simultáneamente."}
+{"prompt": "¿Qué es un 'Thread' (Hilo)?", "response": "Es la unidad más pequeña de ejecución dentro de un proceso; un programa puede tener varios hilos corriendo."}
+{"prompt": "¿Qué es un 'Deadlock'?", "response": "Es un error donde dos o más hilos se bloquean mutuamente esperando recursos que el otro tiene."}
+{"prompt": "¿Qué es una 'condición de carrera' (Race Condition)?", "response": "Ocurre cuando el resultado de un programa depende del orden impredecible en que se ejecutan los hilos."}
+{"prompt": "¿Qué es el 'Debouncing'?", "response": "Es una técnica para limitar la frecuencia con la que se ejecuta una función, esperando a que pase un tiempo de calma."}
+{"prompt": "¿Qué es el 'Throttling'?", "response": "Es una técnica para asegurar que una función no se ejecute más de una vez en un intervalo de tiempo específico."}
+{"prompt": "¿Qué es un 'módulo de exportación' en JS?", "response": "Es usar 'export' para permitir que funciones o variables de un archivo sean usadas en otro archivo mediante 'import'."}
+{"prompt": "Define 'JSON.stringify()'.", "response": "Es una función de JS que convierte un objeto o valor de JavaScript en una cadena de texto JSON."}
+{"prompt": "Define 'JSON.parse()'.", "response": "Es una función de JS que toma una cadena JSON y la convierte en un objeto de JavaScript."}
+{"prompt": "¿Qué es un 'Literal'?", "response": "Es un valor fijo escrito directamente en el código fuente, como 42, 'hola' o true."}
+{"prompt": "¿Qué es la 'coerción de tipos'?", "response": "Es la conversión automática que hace el lenguaje entre tipos de datos distintos durante una operación."}
+{"prompt": "Explica el 'operador spread' (...) en JS.", "response": "Permite expandir elementos de un array u objeto en otro lugar, como al copiar una lista."}
+{"prompt": "¿Qué es la 'desestructuración'?", "response": "Es una expresión que permite extraer valores de arrays u objetos y asignarlos a variables de forma compacta."}
+{"prompt": "¿Qué es un 'generador' en Python?", "response": "Es un tipo especial de función que devuelve valores uno por uno usando 'yield', ahorrando memoria."}
+{"prompt": "¿Qué es 'yield'?", "response": "Es una palabra clave que pausa una función generadora y devuelve un valor al llamador, manteniendo su estado."}
+{"prompt": "¿Qué es un 'Alias'?", "response": "Es darle un nombre alternativo a una variable o módulo para evitar conflictos o por comodidad (ej. import pandas as pd)."}
+{"prompt": "Diferencia entre 'public' y 'private' en POO.", "response": "'Public' permite el acceso desde cualquier lugar; 'Private' restringe el acceso solo al interior de la propia clase."}
+{"prompt": "¿Qué es un 'Getter'?", "response": "Es un método usado para obtener el valor de un atributo privado de forma segura."}
+{"prompt": "¿Qué es un 'Setter'?", "response": "Es un método usado para modificar el valor de un atributo privado validando los datos antes de guardarlos."}
+{"prompt": "¿Qué es la 'sobrecarga de funciones'?", "response": "Es definir varias funciones con el mismo nombre pero con diferentes parámetros."}
+{"prompt": "¿Qué es la 'sobreescritura de métodos'?", "response": "Es cuando una clase hija redefine un método que heredó de la clase padre para cambiar su lógica."}
+{"prompt": "¿Qué es 'super' en POO?", "response": "Es una palabra clave usada para referirse y acceder a métodos o constructores de la clase padre."}
+{"prompt": "Define 'interfaz de usuario' (UI).", "response": "Es la parte visual de una aplicación con la que el usuario interactúa directamente."}
+{"prompt": "¿Qué es el 'Backend'?", "response": "Es la parte de la aplicación que corre en el servidor, maneja la lógica y la base de datos."}
+{"prompt": "¿Qué es el 'Frontend'?", "response": "Es la parte de la aplicación que se ejecuta en el navegador del cliente (HTML, CSS, JS)."}
+{"prompt": "¿Qué es un 'Full Stack'?", "response": "Es un desarrollador que tiene conocimientos tanto de Frontend como de Backend."}
+{"prompt": "¿Qué es una 'base de datos relacional'?", "response": "Es un sistema que organiza los datos en tablas relacionadas entre sí mediante claves únicas."}
+{"prompt": "¿Qué significa 'SQL'?", "response": "Significa Structured Query Language, el lenguaje estándar para interactuar con bases de datos relacionales."}
+{"prompt": "¿Qué es una 'clave primaria' (Primary Key)?", "response": "Es un campo único que identifica de forma exclusiva a cada registro en una tabla de base de datos."}
+{"prompt": "¿Qué es una 'clave foránea' (Foreign Key)?", "response": "Es un campo en una tabla que se vincula con la clave primaria de otra tabla para crear una relación."}
+{"prompt": "¿Qué es una 'query' o consulta?", "response": "Es una petición de datos específica que se le hace a una base de datos."}
+{"prompt": "¿Qué es un 'ORM'?", "response": "Es una herramienta que permite interactuar con bases de datos usando objetos de programación en lugar de código SQL puro."}
+{"prompt": "Define 'NoSQL'.", "response": "Son bases de datos que no usan tablas y relaciones fijas, ideales para datos no estructurados o escalabilidad masiva."}
+{"prompt": "¿Qué es un 'punto de interrupción' (Breakpoint)?", "response": "Es una marca que pones en el código para que el depurador pause la ejecución en esa línea exacta."}
+{"prompt": "¿Qué es un 'log'?", "response": "Es un registro de texto donde el programa anota eventos, errores o información de lo que está sucediendo mientras corre."}
+{"prompt": "¿Qué es el 'acoplamiento'?", "response": "Es el grado de dependencia entre diferentes módulos de un programa; se busca que sea bajo."}
+{"prompt": "¿Qué es la 'cohesión'?", "response": "Es qué tan enfocadas están las responsabilidades de un solo módulo; se busca que sea alta."}
+{"prompt": "Explica el principio 'DRY'.", "response": "Significa 'Don't Repeat Yourself' (No te repitas), evitar duplicar lógica en diferentes partes del código."}
+{"prompt": "Explica el principio 'KISS'.", "response": "Significa 'Keep It Simple, Stupid', aboga por mantener el código lo más sencillo y claro posible."}
+{"prompt": "¿Qué es un 'SDK'?", "response": "Es un Software Development Kit, un conjunto de herramientas y librerías para desarrollar apps para una plataforma específica."}
+{"prompt": "¿Qué es la 'compilación JIT' (Just-In-Time)?", "response": "Es una técnica donde el código se compila a lenguaje máquina justo en el momento en que se necesita ejecutar."}
+{"prompt": "¿Qué es un 'operador binario'?", "response": "Es un operador que requiere dos operandos para funcionar, como la suma (a + b)."}
+{"prompt": "¿Qué es un 'operador unario'?", "response": "Es un operador que actúa sobre un solo operando, como el signo negativo (-x) o el incremento (++i)."}
+{"prompt": "¿Qué es el 'Bitwise'?", "response": "Son operaciones que manipulan los datos a nivel de bits individuales (0 y 1)."}
+{"prompt": "¿Qué es un 'puntero a función'?", "response": "Es una variable que almacena la dirección de memoria donde comienza el código de una función."}
+{"prompt": "¿Qué hace el comando 'exit()'?", "response": "Termina inmediatamente la ejecución del programa y devuelve el control al sistema operativo."}
+{"prompt": "¿Qué es la Programación Orientada a Eventos?", "response": "Es un paradigma donde la ejecución del código depende de acciones del usuario o del sistema, como clics o mensajes."}
+{"prompt": "¿Qué es un 'EventListener'?", "response": "Es una función que 'escucha' o espera a que ocurra un evento específico en un elemento para ejecutar una respuesta."}
+{"prompt": "¿Qué es el 'Bubbling' en eventos?", "response": "Es un fenómeno en JS donde un evento se propaga desde el elemento hijo hacia sus padres en el árbol del DOM."}
+{"prompt": "Explica el concepto de 'Callback Hell'.", "response": "Es una situación donde se anidan tantas funciones callback que el código se vuelve ilegible y difícil de mantener."}
+{"prompt": "¿Qué es el 'Nullish Coalescing' (??)?", "response": "Es un operador que devuelve el valor de la derecha solo si el de la izquierda es null o undefined."}
+{"prompt": "¿Qué es un 'Strict Mode' en JS?", "response": "Es una forma de ejecutar JavaScript que impide acciones mediocres y lanza más errores para ayudar a escribir código limpio."}
+{"prompt": "¿Qué es un 'Map' en JavaScript?", "response": "Es una estructura de datos que guarda pares clave-valor, donde cualquier valor (incluso objetos) puede ser una clave."}
+{"prompt": "Diferencia entre Objeto y Map en JS.", "response": "Los objetos tienen claves que deben ser strings o símbolos; en un Map las claves pueden ser de cualquier tipo."}
+{"prompt": "¿Qué es un 'WeakMap'?", "response": "Es un tipo de Map donde las claves deben ser objetos y no impiden que el recolector de basura elimine dichos objetos."}
+{"prompt": "¿Qué es el 'Shadow DOM'?", "response": "Es una técnica para encapsular el HTML y CSS de un componente, aislándolo del resto del documento."}
+{"prompt": "¿Qué es un 'Polyfill'?", "response": "Es un pedazo de código que proporciona funcionalidades modernas en navegadores antiguos que no las soportan nativamente."}
+{"prompt": "Define 'Transpilador'.", "response": "Es una herramienta que traduce código de un lenguaje a otro similar (ej. de TypeScript a JavaScript)."}
+{"prompt": "¿Qué es TypeScript?", "response": "Es un lenguaje basado en JavaScript que añade tipado estático, ayudando a detectar errores antes de ejecutar el código."}
+{"prompt": "¿Qué es una 'Interface' en TypeScript?", "response": "Es una definición que describe la forma o estructura que debe tener un objeto."}
+{"prompt": "¿Qué es el 'Type Inference'?", "response": "Es la capacidad del lenguaje de deducir automáticamente el tipo de una variable basándose en el valor asignado."}
+{"prompt": "¿Qué es un 'Enum'?", "response": "Es un tipo especial de dato que permite definir un conjunto de constantes con nombre, facilitando la lectura del código."}
+{"prompt": "¿Qué es un 'Tuple' en TypeScript?", "response": "Es un array con un número fijo de elementos cuyos tipos de datos son conocidos y pueden ser distintos."}
+{"prompt": "¿Qué significa 'Union Type'?", "response": "Es una función de TypeScript que permite que una variable pueda tener más de un tipo de dato posible (ej. string | number)."}
+{"prompt": "¿Qué es el tipado 'Any'?", "response": "Es un tipo en TypeScript que desactiva la verificación de tipos para una variable, permitiendo cualquier valor."}
+{"prompt": "¿Para qué sirve 'unknown' en TS?", "response": "Es una alternativa más segura a 'any'; obliga a verificar el tipo antes de realizar operaciones con la variable."}
+{"prompt": "¿Qué es un 'Decorator' en TypeScript?", "response": "Es una anotación especial que permite modificar el comportamiento de clases, métodos o propiedades usando la sintaxis @nombre."}
+{"prompt": "¿Qué es el 'Big O Notation'?", "response": "Es una medida matemática usada para describir la eficiencia y escalabilidad de un algoritmo en términos de tiempo o espacio."}
+{"prompt": "¿Qué significa O(1)?", "response": "Significa tiempo constante: el algoritmo tarda lo mismo sin importar qué tan grandes sean los datos de entrada."}
+{"prompt": "¿Qué significa O(n)?", "response": "Significa tiempo lineal: el tiempo de ejecución crece de forma proporcional al tamaño de los datos de entrada."}
+{"prompt": "Explica O(n^2).", "response": "Es tiempo cuadrático: el tiempo crece proporcional al cuadrado de los datos; común en bucles anidados."}
+{"prompt": "¿Qué es una 'Tabla Hash'?", "response": "Es una estructura de datos que usa una función hash para mapear claves a valores de forma muy rápida."}
+{"prompt": "¿Qué es una 'Colisión' en tablas hash?", "response": "Ocurre cuando dos claves diferentes generan el mismo índice a través de la función hash."}
+{"prompt": "Define 'Árbol Binario'.", "response": "Es una estructura de datos donde cada nodo tiene como máximo dos hijos, llamados izquierdo y derecho."}
+{"prompt": "¿Qué es un 'Árbol Binario de Búsqueda' (BST)?", "response": "Es un árbol binario donde los valores menores están a la izquierda y los mayores a la derecha."}
+{"prompt": "¿Qué es un 'Grafo'?", "response": "Es un conjunto de nodos (vértices) conectados por líneas (aristas), usado para representar redes o rutas."}
+{"prompt": "Diferencia entre Grafo dirigido y no dirigido.", "response": "En el dirigido las conexiones tienen un sentido (flechas); en el no dirigido la relación es mutua."}
+{"prompt": "¿Qué es la 'Programación Funcional'?", "response": "Es un paradigma que trata la computación como la evaluación de funciones matemáticas y evita cambiar estados o datos mutables."}
+{"prompt": "¿Qué es una 'Función Pura'?", "response": "Es una función que siempre devuelve el mismo resultado para los mismos argumentos y no tiene efectos secundarios."}
+{"prompt": "¿Qué es un 'Efecto Secundario' (Side Effect)?", "response": "Es cualquier cambio que una función hace fuera de su propio entorno, como modificar una variable global o imprimir en consola."}
+{"prompt": "¿Qué es la 'Inmutabilidad' en Programación Funcional?", "response": "Es la práctica de no modificar datos existentes, sino crear copias nuevas con los cambios aplicados."}
+{"prompt": "¿Qué es una 'Higher-Order Function'?", "response": "Es una función que recibe otra función como parámetro o devuelve una función como resultado."}
+{"prompt": "¿Qué es el 'Currying'?", "response": "Es transformar una función que recibe varios argumentos en una serie de funciones que reciben un solo argumento cada una."}
+{"prompt": "¿Qué es la 'Composición de Funciones'?", "response": "Es el proceso de combinar dos o más funciones para producir una nueva función compleja."}
+{"prompt": "¿Qué es la 'Lazy Evaluation'?", "response": "Es una estrategia que retrasa el cálculo de una expresión hasta que su valor sea realmente necesario."}
+{"prompt": "¿Qué es un 'Buffer'?", "response": "Es un espacio de memoria temporal que se usa para almacenar datos mientras se transfieren de un lugar a otro."}
+{"prompt": "¿Qué es un 'Stream'?", "response": "Es una secuencia de datos que se procesa pieza por pieza de forma continua, sin cargar todo el archivo en memoria."}
+{"prompt": "¿Qué hace el comando 'chmod'?", "response": "Es un comando de sistemas tipo Unix usado para cambiar los permisos de acceso de un archivo o carpeta."}
+{"prompt": "¿Qué es un 'Shell Script'?", "response": "Es un archivo de texto que contiene una serie de comandos para ser ejecutados por la terminal del sistema operativo."}
+{"prompt": "¿Qué es 'recursión de cola' (Tail Recursion)?", "response": "Es un tipo de recursión donde la llamada recursiva es la última acción de la función, permitiendo optimizar el uso de memoria."}
+{"prompt": "¿Qué es un 'Dead Code'?", "response": "Es código que existe en el programa pero que nunca se ejecuta bajo ninguna circunstancia."}
+{"prompt": "¿Qué es un 'Linter'?", "response": "Es una herramienta que analiza el código estáticamente para encontrar errores potenciales y problemas de estilo."}
+{"prompt": "¿Para qué sirve 'Prettier'?", "response": "Es un formateador de código automático que asegura que todo el equipo siga las mismas reglas visuales."}
+{"prompt": "¿Qué es el 'Minificado' de código?", "response": "Es el proceso de eliminar espacios, comentarios y acortar nombres en el código para que el archivo ocupe menos espacio."}
+{"prompt": "¿Qué es un 'Source Map'?", "response": "Es un archivo que mapea el código minificado o transpilado de vuelta al código original para facilitar la depuración."}
+{"prompt": "¿Qué es el 'Hot Reloading'?", "response": "Es una función de desarrollo que actualiza solo la parte del código cambiada en la aplicación sin reiniciar todo el estado."}
+{"prompt": "¿Qué es una 'Inyección de Dependencias'?", "response": "Es un patrón de diseño donde un objeto recibe sus dependencias desde fuera en lugar de crearlas internamente."}
+{"prompt": "¿Qué es el 'Single Responsibility Principle'?", "response": "Es la regla que dice que cada clase o función debe tener una sola razón para cambiar, es decir, una sola tarea."}
+{"prompt": "¿Qué es el principio 'Open/Closed'?", "response": "Las entidades de software deben estar abiertas para su extensión, pero cerradas para su modificación."}
+{"prompt": "¿Qué es el principio de sustitución de Liskov?", "response": "Dice que los objetos de una clase hija deben poder reemplazar a los de la clase padre sin romper el programa."}
+{"prompt": "¿Qué es la 'Segregación de Interfaces'?", "response": "Es mejor tener muchas interfaces específicas que una sola interfaz general que obligue a implementar métodos innecesarios."}
+{"prompt": "¿Qué es la 'Inversión de Dependencias'?", "response": "Dice que los módulos de alto nivel no deben depender de los de bajo nivel; ambos deben depender de abstracciones."}
+{"prompt": "¿Qué significa 'MVC'?", "response": "Es un patrón de arquitectura (Modelo-Vista-Controlador) que separa los datos, la interfaz y la lógica de control."}
+{"prompt": "¿Qué es el 'Modelo' en MVC?", "response": "Es la parte encargada de gestionar los datos y la lógica de negocio de la aplicación."}
+{"prompt": "¿Qué es la 'Vista' en MVC?", "response": "Es la representación visual de los datos, lo que el usuario ve y con lo que interactúa."}
+{"prompt": "¿Qué es el 'Controlador' en MVC?", "response": "Es el intermediario que recibe las acciones del usuario, actualiza el modelo y refresca la vista."}
+{"prompt": "¿Qué es un 'Singleton'?", "response": "Es un patrón de diseño que asegura que una clase tenga una única instancia en todo el programa."}
+{"prompt": "¿Qué es el patrón 'Factory'?", "response": "Es un patrón que proporciona una interfaz para crear objetos, pero permite a las subclases decidir qué clase instanciar."}
+{"prompt": "¿Qué es el patrón 'Observer'?", "response": "Es un patrón donde un objeto (sujeto) notifica automáticamente a otros objetos (observadores) sobre sus cambios de estado."}
+{"prompt": "¿Qué es un 'Middleware'?", "response": "Es código que se ejecuta en medio de dos procesos, usualmente entre que llega una petición al servidor y se envía la respuesta."}
+{"prompt": "¿Qué es una 'Cookie'?", "response": "Es un pequeño fragmento de texto que un servidor envía al navegador para recordar información sobre el usuario."}
+{"prompt": "¿Qué es el 'LocalStorage'?", "response": "Es una forma de guardar datos en el navegador del usuario de manera persistente, incluso si se cierra la pestaña."}
+{"prompt": "¿Qué es el 'SessionStorage'?", "response": "Es similar al LocalStorage, pero los datos se borran automáticamente cuando se cierra la pestaña del navegador."}
+{"prompt": "¿Qué es un 'Token'?", "response": "Es una cadena de caracteres que sirve como una credencial digital para identificar a un usuario o sesión."}
+{"prompt": "¿Qué significa 'JWT'?", "response": "JSON Web Token, un estándar para transmitir información de forma segura entre partes como un objeto JSON."}
+{"prompt": "¿Qué es el 'CORS'?", "response": "Es un mecanismo de seguridad que controla qué sitios web pueden hacer peticiones a un servidor que no es el suyo."}
+{"prompt": "¿Qué es un 'Endpoint'?", "response": "Es una URL específica de una API donde un programa puede acceder a un recurso o servicio."}
+{"prompt": "Diferencia entre GET y POST.", "response": "GET se usa para solicitar datos del servidor; POST se usa para enviar datos para crear o actualizar algo."}
+{"prompt": "¿Para qué sirve el método PUT?", "response": "Se usa para enviar datos al servidor con el fin de reemplazar completamente un recurso existente."}
+{"prompt": "¿Para qué sirve el método PATCH?", "response": "Se usa para realizar modificaciones parciales a un recurso en el servidor."}
+{"prompt": "¿Para qué sirve el método DELETE?", "response": "Se usa para solicitar al servidor que elimine un recurso específico."}
+{"prompt": "¿Qué significa el código de estado 200?", "response": "Significa 'OK', la petición fue exitosa y el servidor devolvió la respuesta esperada."}
+{"prompt": "¿Qué significa el código de estado 404?", "response": "Significa 'Not Found', el servidor no pudo encontrar el recurso solicitado."}
+{"prompt": "¿Qué significa el código de estado 500?", "response": "Significa 'Internal Server Error', hubo un error inesperado en el lado del servidor."}
+{"prompt": "¿Qué es el código de estado 401?", "response": "Significa 'Unauthorized', el usuario no tiene permisos o necesita autenticarse."}
+{"prompt": "¿Qué es el código de estado 403?", "response": "Significa 'Forbidden', el servidor entiende la petición pero se niega a autorizarla."}
+{"prompt": "¿Qué es un 'WebHook'?", "response": "Es una forma de que una aplicación envíe información en tiempo real a otra aplicación cuando ocurre un evento."}
+{"prompt": "¿Qué es 'WebSockets'?", "response": "Es una tecnología que permite una comunicación bidireccional y constante entre el cliente y el servidor."}
+{"prompt": "¿Qué es el 'DOM'?", "response": "Document Object Model, una representación en forma de árbol de todos los elementos de una página HTML."}
+{"prompt": "¿Qué es un 'Virtual DOM'?", "response": "Es una copia ligera del DOM real que usan librerías como React para mejorar el rendimiento al actualizar la interfaz."}
+{"prompt": "¿Qué es un 'Componente'?", "response": "Es una pieza de código independiente y reutilizable que define una parte de la interfaz de usuario."}
+{"prompt": "¿Qué son los 'Props'?", "response": "Son los argumentos o propiedades que se pasan de un componente padre a un componente hijo."}
+{"prompt": "¿Qué es el 'Estado' (State) de un componente?", "response": "Es un objeto que guarda datos que pueden cambiar y que afectan cómo se ve o se comporta el componente."}
+{"prompt": "¿Qué es un 'Hook' en React?", "response": "Es una función especial que permite 'enganchar' funcionalidades como el estado o el ciclo de vida en componentes funcionales."}
+{"prompt": "¿Para qué sirve 'useState'?", "response": "Es un Hook que permite añadir y manejar el estado interno en un componente de React."}
+{"prompt": "¿Para qué sirve 'useEffect'?", "response": "Es un Hook que permite ejecutar efectos secundarios (peticiones, suscripciones) en componentes de React."}
+{"prompt": "¿Qué es el 'Server-Side Rendering' (SSR)?", "response": "Es generar el HTML de una página en el servidor en lugar de hacerlo en el navegador del cliente."}
+{"prompt": "¿Qué es el 'Static Site Generation' (SSG)?", "response": "Es generar todas las páginas HTML de un sitio durante el proceso de compilación, antes de que alguien las visite."}
+{"prompt": "¿Qué es una 'PWA'?", "response": "Progressive Web App, una aplicación web que se comporta como una app nativa (funciona offline, notificaciones)."}
+{"prompt": "¿Qué es un 'Service Worker'?", "response": "Es un script que corre en segundo plano en el navegador para manejar caché y funciones fuera de línea."}
+{"prompt": "¿Qué es el 'Bucle de Eventos' (Event Loop)?", "response": "Es el mecanismo de JS que gestiona la ejecución de múltiples tareas asíncronas de forma eficiente."}
+{"prompt": "¿Qué es la 'Pila de Llamadas' (Call Stack)?", "response": "Es la estructura que registra en qué punto del programa estamos y qué funciones se están ejecutando."}
+{"prompt": "¿Qué es la 'Cola de Tareas' (Task Queue)?", "response": "Es donde se guardan los mensajes y funciones asíncronas que esperan a ser ejecutadas cuando la pila esté vacía."}
+{"prompt": "¿Qué es un 'Microtask'?", "response": "Son tareas de alta prioridad (como promesas) que se ejecutan inmediatamente después de la tarea actual."}
+{"prompt": "¿Qué es el 'Memoization'?", "response": "Es una técnica de optimización que consiste en guardar el resultado de funciones costosas para no repetirlas."}
+{"prompt": "¿Qué es un 'Regex Group'?", "response": "Es una parte de una expresión regular encerrada en paréntesis para tratarla como una unidad o extraer su contenido."}

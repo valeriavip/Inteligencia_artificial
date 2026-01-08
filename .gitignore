@@ -1,2 +1,5 @@
 Landmark/mp_env/
 CNN sports/sportimages/
+fineTuning/tutor.gguf
+fineTuning/lora-tutor
+fineTuning/modelo
